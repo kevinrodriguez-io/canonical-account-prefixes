@@ -1,0 +1,29 @@
+[package]
+name = "canonical-account-prefixes"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kevin Rodriguez <_@kevinrodriguez.io>"]
+description = "A lib to make canonical constants in Solana and Anchor."
+license = "MIT"
+repository = "https://github.com/kevinrodriguez-io/canonical-account-prefixes"
+homepage = "https://github.com/kevinrodriguez-io/canonical-account-prefixes"
+documentation = "https://docs.rs/canonical-account-prefixes"
+readme = "../../README.md"
+keywords = [
+    "blockchain",
+    "financial",
+    "solana",
+    "finance",
+]
+categories = ["finance", "cryptography"]
+
+[features]
+anchor = []
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "^1.0.36"
+proc-macro2 = "^1.0.86"
+syn = { version = "^2.0.75", features = ["full"] }
