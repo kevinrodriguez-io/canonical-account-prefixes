@@ -3,7 +3,7 @@
 ![Logo](./images/MIN.jpg)
 
 [![Crates.io](https://img.shields.io/crates/v/canonical_account_prefixes)](https://crates.io/crates/canonical_account_prefixes)
-[![Docs.rs](https://docs.rs/canonical_account_prefixes/badge.svg)](https://docs.rs/canonical_account_prefixes)
+[![Docs.rs](https://docs.rs/canonical-account-prefixes/badge.svg)](https://docs.rs/canonical-account-prefixes)
 
 Generates a const prefix for a given account name. This is useful for generating
 a prefix for a given account xname that can be used in a Solana Program.
